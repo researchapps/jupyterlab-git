@@ -1,8 +1,9 @@
 # JupyterLab Git
 
 This is an example Docker container to test [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git), 
-which would allow for easy interaction with a git repository from JupyterLab. Since Nero is limited
-to code.stanford.edu, the repository would need to serve content from there (not GitHub).
+which would allow for easy interaction with a git repository from JupyterLab. The container
+could connect to whatever git repository endpoints would be allowed anyway, and permissions
+for the git repository (updating and access) would be controlled by the provider of git.
 
 ## Build
 
