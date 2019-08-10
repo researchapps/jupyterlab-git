@@ -12,8 +12,8 @@ You can optionally build the container as follows:
 docker build -t vanessa/jupyterlab-git .
 ```
 
-It's optional because I've pushed [this example]() that you can use directly from
-DockerHub.
+It's optional because I've pushed [this example](https://hub.docker.com/r/vanessa/jupyterlab-git) 
+that you can use directly from DockerHub.
 
 ## Run
 
